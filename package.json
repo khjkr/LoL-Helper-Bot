@@ -12,6 +12,7 @@
   "private": false,
   "dependencies": {
     "discord.js": "^12.4.1",
-    "korean-logger": "^1.0.6"
+    "korean-logger": "^1.0.6",
+    "leagueapiwrapper": "^2.1.0"
   }
 }

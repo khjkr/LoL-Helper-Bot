@@ -9,8 +9,8 @@
       "respawn": true,
       "count": "auto",
       "delay": 7500
-    },
-    "api_key": ""
+    }
   },
+  "api_key": "",
   "owners": [""]
 }
