@@ -1,0 +1,17 @@
+{
+  "name": "lol-helper-bot",
+  "version": "1.0.0",
+  "description": "디스코드에서 간편하게 사용하는 롤 도우미 봇입니다.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": "https://github.com/khjkr/LoL-Helper-Bot.git",
+  "author": "khjkr",
+  "license": "GPL-3.0",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "korean-logger": "^1.0.6"
+  }
+}

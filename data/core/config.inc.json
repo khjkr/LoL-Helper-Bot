@@ -1,0 +1,16 @@
+{
+  "bot": {
+    "token": "",
+    "prefix": ".",
+    "color": 5811450,
+    "version": "0.01v",
+    "build": "BETA",
+    "shard": {
+      "respawn": true,
+      "count": "auto",
+      "delay": 7500
+    },
+    "api_key": ""
+  },
+  "owners": [""]
+}
