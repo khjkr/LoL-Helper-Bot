@@ -16,9 +16,9 @@ module.exports = class Test extends Model {
   }
 
   run (pkg) {
-    LeagueAPI.getSummonerByName(pkg.args[0]).then(function(accountInfo) {
+    LeagueAPI.getSummonerByName(pkg.args.join(" ")).then(function(accountInfo) {
       console.log(accountInfo)
-      pkg.msg.channel.send('닉네임: ' + accountInfo.name + '\n레벨: ' + accountInfo.summonerLevel)
+      pkg.msg.channel.send('닉네임: ' + accountInfo.name + '\n레벨: ' + accountInfo.summonerLevel + '\n아이콘: ' + `http://ddragon.leagueoflegends.com/cdn/10.6.1/img/profileicon/${accountInfo.profileIconId}.png`)
     })
     .catch(console.log)
   }
