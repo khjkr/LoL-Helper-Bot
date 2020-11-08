@@ -104,3 +104,4 @@ dist
 .tern-port
 data/core/config.json
 data/core/check.json
+command/testCommand.js
